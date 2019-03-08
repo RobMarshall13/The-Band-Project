@@ -1,0 +1,41 @@
+
+/*Landing page mobile*/
+
+body{
+    height:100vh;
+}
+
+article{
+   
+    margin:0;
+    background: url("/band-assets/images/band.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.band{
+     height: 75vh;
+    text-align: center;
+   
+    
+    color:white;
+    
+}
+
+.band
+
+.nav{
+    height:25vh;
+    margin-bottom: 0;
+}
+
+button{
+    min-height:25%;
+}
+
+footer{
+    background-color: grey;
+}
+
