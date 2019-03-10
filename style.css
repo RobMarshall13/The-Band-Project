@@ -1,11 +1,23 @@
 
 /*Landing page mobile*/
 
-body{
-    height:100vh;
+html, body{
+    height:100%;
+    margin:0;
 }
 
 article{
+    min-height: 100%;
+}
+
+/*.nav{*/
+/*    padding: 0;*/
+/*  padding-bottom: 50px;*/
+/*}*/
+
+
+
+.call{
    
     margin:0;
     background: url("/band-assets/images/band.jpg") no-repeat center center fixed;
@@ -16,26 +28,127 @@ article{
 }
 
 .band{
-     height: 75vh;
+     height: 70vh;
+     width:100vw;
     text-align: center;
-   
+   padding: 1rem;
     
     color:white;
     
 }
 
-.band
+h1, h5, ul li{
+    text-shadow: 2px 2px black;
+}
 
-.nav{
-    height:25vh;
-    margin-bottom: 0;
+#nav{
+    padding-bottom: 1rem;
 }
 
 button{
-    min-height:25%;
+   
+    border:none;
+    padding:10px;
+    
 }
 
 footer{
-    background-color: grey;
+    min-height: 5vh;
+   
 }
 
+.fab  {
+    color:#6BBAEC;
+    text-align: center;
+    text-shadow: none;
+}
+
+button span {
+    
+    color: white;
+}
+
+#boys{
+    background-color: #BCC4DB;
+    margin-bottom:5px;
+}
+
+#listen{
+    background-color: #C0A9B0;
+     margin-bottom:5px;
+}
+
+#watch{
+    background-color: #8DB580;
+     margin-bottom:5px;
+}
+
+#book{
+    background-color: #6987C9;
+     margin-bottom:5px;
+}
+
+@media(max-width: 1025px){
+
+#top-nav-images{
+    display: none;
+}
+
+#bottom-nav-images{
+    display: none;
+}
+
+}
+
+@media(min-width: 1025px) {
+    #nav{
+        position:absolute;
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+    }
+    
+    .call{
+    margin:0;
+    background: url("/band-assets/images/monkees.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+#top-nav{
+    margin-top: 1rem;
+}
+
+#bottom-nav{
+    margin-top: 1rem;
+}
+
+#top-nav-images{
+    margin-top: 3rem;
+    
+}
+
+#bottom-nav-images{
+    margin-top: 15rem;
+}
+
+img{
+    height:250px;
+}
+
+.title{
+    max-width:50rem;
+    position: relative;
+     top: 50vh;
+    left:50vw;
+    margin-left:-25rem;
+    margin-top: -5rem;
+   
+}
+
+
+}

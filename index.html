@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Monkees | The Band</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
@@ -13,39 +14,54 @@
 
 <body>
     <article class="container-fluid call">
-        <section class="band col-sm-12 col-md-6 offset-md-3">
+        <wrapper class=" band col-sm-12 col-md-6 offset-md-3">
+        <div class="title">
             <h1>THE MONKEES</h1>
-                <h3>Quickly becoming one of the worlds most popular bands. The boys are still available for</h3>
+                <h5>Quickly becoming one of the worlds most popular bands. The boys are still available for</h5>
                     <ul>
                         <li>Weddings</li>
                         <li> Funerals</li>
                         <li>Bar/Bat Mitsvah's</li>
                         <li>Christmas Parties.</li>
                     </ul>
-        </section>
-       
-         <div class="row align-items-start">
-                    
-                        <button id="boys" class="col-sm-12 col-md-3 offset-md-1 ">
-                            <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Meet The Boys</span></a>
+                    </div>
+        </wrapper>
+       <div id="nav" class="col-sm-10 offset-sm-1">
+           <div class="row hide-mobile" id="top-nav-images">
+               <img class="col-md-12  col-lg-3 offset-lg-1" src="/band-assets/images/album.jpg"></img>
+               <img class="col-md-12 col-lg-3 offset-lg-4 btn-lg " src="/band-assets/images/album2.jpg"></img>
+           </div>
+         
+                 <div class="row" id="top-nav">
+                        <button id="boys" class="col-md-12  col-lg-3 offset-lg-1 btn-lg ">
+                            <a href="index.html"></a><span>Meet The Boys</span></a>
                         </button>
-                        <button id="listen" class="col-sm-12 col-md-3 offset-md-4  ">
-                            <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Listen</span></a>
+                        <button id="listen" class="col-md-12 col-lg-3 offset-lg-4 btn-lg ">
+                            <a href="resume.html" ><span>Listen</span></a>
+                        </button>
+                </div>
+                <div class="row hide-mobile" id="bottom-nav-images">
+               <img class="col-md-12  col-lg-3 offset-lg-1" src="/band-assets/images/album.jpg"></img>
+               <img class="col-md-12 col-lg-3 offset-lg-4 btn-lg " src="/band-assets/images/album2.jpg"></img>
+           </div>
+           
+             <div class="row" id="bottom-nav">
+                        <button id="watch" class="col-md-12  col-lg-3 offset-lg-1 btn-lg ">
+                            <a href="contact.html"><span>Watch</span></a>
+                        </button>
+                        <button id="book" class="col-md-12  col-lg-3 offset-lg-4 btn-lg">
+                            <a href="downloads.html" ><span>Booking & Future Dates</span></a>
                         </button>
             </div>
-             <div class="row align-items-end">
-                        <button id="watch" class="col-sm-12 col-md-3 offset-md-1 ">
-                            <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Watch</span></a>
-                        </button>
-                        <button id="book" class="col-sm-12 col-md-3 offset-md-4 ">
-                            <a href="downloads.html"  class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Booking & Future Dates</span></a>
-                        </button>
-            </div>
-        
+        </div>
     </article>
     
-    <footer>
-        <p>This is the footer</p>
+    <footerclass="footer mt-auto py-3">
+       <ul class="list-group list-group-horizontal social">
+  <li class="list-group-item flex-fill "><i class="fab fa-facebook-f"> Facebook</i></li>
+  <li class="list-group-item flex-fill"><i class="fab fa-twitter"> Twitter</i></li>
+  <li class="list-group-item flex-fill"><i class="fab fa-reddit-alien"> Reddit</i></li>
+</ul>
     </footer>
     
            
