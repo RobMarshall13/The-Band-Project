@@ -1,154 +1,185 @@
+/* mobile*/
 
-/*Landing page mobile*/
-
-html, body{
-    height:100%;
-    margin:0;
+html,
+body {
+    height: 100%;
+    margin: 0;
 }
 
-article{
+article {
     min-height: 100%;
 }
 
-/*.nav{*/
-/*    padding: 0;*/
-/*  padding-bottom: 50px;*/
-/*}*/
-
-
-
-.call{
-   
-    margin:0;
-    background: url("/band-assets/images/band.jpg") no-repeat center center fixed;
+.call {
+    margin-top: 0;
+    background: url("/band-assets/images/monkees.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.band{
-     height: 70vh;
-     width:100vw;
+.band {
+    height: 70vh;
+    width: 100vw;
     text-align: center;
-   padding: 1rem;
-    
-    color:white;
-    
 }
 
-h1, h5, ul li{
+.landing-title,
+.title-meet h1 {
+    border-color: transparent;
+    color: red;
+    text-shadow: 2px 2px yellow;
+    border-style: double;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.landing-title h5,
+ul li {
+    color: white;
     text-shadow: 2px 2px black;
 }
 
-#nav{
+.landing-title ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#nav {
     padding-bottom: 1rem;
+
 }
 
-button{
-   
-    border:none;
-    padding:10px;
-    
+#nav-meet {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
-footer{
+button {
+    display: block;
+    border: none;
+    padding: 10px;
+}
+
+footer {
     min-height: 5vh;
-   
 }
 
-.fab  {
-    color:#6BBAEC;
+.fab {
+    color: #6BBAEC;
     text-align: center;
     text-shadow: none;
 }
 
 button span {
-    
     color: white;
 }
 
-#boys{
+.corner {
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-style: groove;
+    border-radius: 1rem;
+    border-color: transparent;
+    padding: 0.5rem;
+}
+
+.corner button {
+    width: 100%;
     background-color: #BCC4DB;
-    margin-bottom:5px;
+    margin-top: 1rem;
 }
 
-#listen{
-    background-color: #C0A9B0;
-     margin-bottom:5px;
+.headshot,
+.headshot-right {
+    float: none;
+    display: block;
+    width: 100%;
 }
 
-#watch{
-    background-color: #8DB580;
-     margin-bottom:5px;
+.bio,
+.link-to-home {
+    color: white;
 }
 
-#book{
-    background-color: #6987C9;
-     margin-bottom:5px;
+.link-to-home {
+    position: absolute;
+    top: 95vh;
+    margin-top: auto;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
 }
 
-@media(max-width: 1025px){
-
-#top-nav-images{
-    display: none;
+#book button:hover,
+#listen button:hover,
+#watch button:hover,
+#boys button:hover {
+    background-color: #BCC6ef;
 }
 
-#bottom-nav-images{
-    display: none;
-}
-
+.flyer {
+    height: 16rem;
+    width: 16rem;
 }
 
 @media(min-width: 1025px) {
-    #nav{
-        position:absolute;
-        left:0;
-        top:0;
-        height:100%;
-        width:100%;
+    #nav {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
     }
-    
-    .call{
-    margin:0;
-    background: url("/band-assets/images/monkees.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-}
 
-#top-nav{
-    margin-top: 1rem;
-}
+    .bio {
+        text-align: left;
 
-#bottom-nav{
-    margin-top: 1rem;
-}
+    }
 
-#top-nav-images{
-    margin-top: 3rem;
-    
-}
 
-#bottom-nav-images{
-    margin-top: 15rem;
-}
+    .top-section {
+        margin-top: 3rem;
 
-img{
-    height:250px;
-}
+    }
 
-.title{
-    max-width:50rem;
-    position: relative;
-     top: 50vh;
-    left:50vw;
-    margin-left:-25rem;
-    margin-top: -5rem;
-   
-}
+    .bottom-section {
+        margin-top: 15rem;
+        height: auto;
+
+    }
+
+    .bottom-section-meet {
+        margin-top: 5rem;
+        height: auto;
+
+    }
+
+    img,
+    .headshot {
+        height: 16rem;
+        width: 16rem;
+    }
+
+    .landing-title {
+        max-width: 50rem;
+        position: relative;
+        top: 50vh;
+        left: 50vw;
+        margin-left: -25rem;
+        margin-top: -8rem;
+
+    }
+
+    .headshot {
+        float: left;
+    }
+
+    .headshot-right {
+        float: left;
+    }
 
 
 }
