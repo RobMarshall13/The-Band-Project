@@ -12,7 +12,7 @@ article {
 
 .call {
     margin-top: 0;
-    background: url("/band-assets/images/monkees.jpg") no-repeat center center fixed;
+    background: url("band-assets/images/monkees.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -36,6 +36,8 @@ article {
     
     
 }
+
+
 
 video{
     border-style: groove;
@@ -80,10 +82,17 @@ footer {
     min-height: 5vh;
 }
 
+.social ul li{
+    list-style-type: none;
+    
+}
+
 .fab {
     color: #6BBAEC;
     text-align: center;
     text-shadow: none;
+    padding: 10px;
+    margin-right: 30px;
 }
 
 button span {

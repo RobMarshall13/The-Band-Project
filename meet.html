@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
 
@@ -25,10 +27,18 @@
                 <a class="nav-item nav-link active" href="index.html">Home</a>
                 <a class="nav-item nav-link" href="meet.html">Meet The Boys <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="listen.html">Listen</a>
-               <a class="nav-item nav-link disabled" href="watch.html">Watch</a>
+               <a class="nav-item nav-link" href="watch.html">Watch</a>
                 <a class="nav-item nav-link disabled" href="book.html">Booking & Future Dates</a>
             </div>
         </div>
+         <div class="social">
+              <ul class="list-group list-group-horizontal social">
+               <li class="fab ">Find us on:-</li>
+             <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-reddit-alien"></i></li>
+        </ul>
+         </div>
     </nav>
 
     <article class="container-fluid call ">
@@ -43,7 +53,7 @@
 
             <div class="row top-section-meet" id="top-nav">
                 <div id="dj" class="col-md-12  col-lg-5 offset-lg-1  corner">
-                    <p class="bio"><img class="headshot" src="/band-assets/images/dj.jpg"></img>
+                    <p class="bio"><img class="headshot" src="band-assets/images/dj.jpg"></img>
                         David Thomas Jones (30 December 1945 – 29 February 2012) was an English singer-songwriter, musician, actor and businessman, best known as a member of the band the Monkees, and for starring in the TV series of the same name. His acting credits include
                         a Tony-nominated performance as the Artful Dodger in the original London and Broadway productions of Oliver!
                         <a href="https://en.wikipedia.org/wiki/Davy_Jones_(musician)" target="_blank" alt="link to wikipedia">
@@ -52,7 +62,7 @@
                     </p>
                 </div>
                 <div id="md" class="col-md-12  col-lg-5 offset-lg-1 corner">
-                    <p class="bio"><img class="headshot" src="/band-assets/images/md.jpg"></img>
+                    <p class="bio"><img class="headshot" src="band-assets/images/md.jpg"></img>
                         Dolenz was born at the Cedars of Lebanon Hospital (now Cedars-Sinai Medical Center), in Los Angeles, California, the son of actors George Dolenz and Janelle Johnson. He has three younger sisters, Gemma Marie ("Coco"; born 1949), Deborah (born 1958), and
                         Kathleen ("Gina"; born 1960). Gemma's nickname, Coco, is a shortened form of "Coco Sunshine",
                         <a href="https://en.wikipedia.org/wiki/Micky_Dolenz" target="_blank" alt="link to wikipedia">
@@ -63,7 +73,7 @@
             </div>
             <div class="row bottom-section-meet" id="bottom-nav">
                 <div id="mn" class="col-md-12  col-lg-5 offset-lg-1   corner">
-                    <p class="bio"><img class="headshot" src="/band-assets/images/mn.jpg"></img>
+                    <p class="bio"><img class="headshot" src="band-assets/images/mn.jpg"></img>
                         Robert Michael Nesmith (born December 30, 1942) is an American musician, songwriter, actor, producer, novelist, businessman, and philanthropist, best known as a member of the pop rock band the Monkees and co-star of the TV series The Monkees (1966–1968).
                         Nesmith's songwriting credits include "Different Drum" (sung by Linda Ronstadt with the Stone Poneys).
 
@@ -73,7 +83,7 @@
                     </p>
                 </div>
                 <div id="pt" class="col-md-12  col-lg-5 offset-lg-1 corner">
-                    <p class="bio"><img class="headshot" src="/band-assets/images/pt.jpg"></img>
+                    <p class="bio"><img class="headshot" src="band-assets/images/pt.jpg"></img>
                         Tork was born at the former Doctors Hospital, in Washington, D.C.[2] Although he was born in the District of Columbia in 1942,[3] many news articles incorrectly report him as born in 1944 in New York City, which was the date and place given on early Monkees
                         press releases. He was the son of Virginia Hope (née Straus) and Halsten John Thorkelson, an economics
                         <a href="https://en.wikipedia.org/wiki/Peter_Tork" target="_blank" alt="link to wikipedia">
@@ -89,11 +99,7 @@
     </article>
 
     <footerclass="footer mt-auto py-3">
-        <ul class="list-group list-group-horizontal social">
-            <li class="list-group-item flex-fill "><i class="fab fa-facebook-f"> Facebook</i></li>
-            <li class="list-group-item flex-fill"><i class="fab fa-twitter"> Twitter</i></li>
-            <li class="list-group-item flex-fill"><i class="fab fa-reddit-alien"> Reddit</i></li>
-        </ul>
+       
         </footer>
 
 

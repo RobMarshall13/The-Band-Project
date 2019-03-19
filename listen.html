@@ -9,25 +9,36 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-default navbar-light bg-light">
         <a class="navbar-brand" href="#">The Monkees</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar">
     <span class="navbar-toggler-icon"></span>
+    
   </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">Home </a>
-                <a class="nav-item nav-link" href="meet.html">Meet The Boys</a>
-                <a class="nav-item nav-link" href="listen.html">Listen<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link disabled" href="watch.html">Watch</a>
+                <a class="nav-item nav-link active" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="meet.html">Meet The Boys <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="listen.html">Listen</a>
+                <a class="nav-item nav-link" href="watch.html">Watch</a>
                 <a class="nav-item nav-link disabled" href="book.html">Booking & Future Dates</a>
             </div>
+        </div>
+        <div class="social">
+            <ul class="list-group list-group-horizontal social">
+                <li class="fab ">Find us on:-</li>
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-reddit-alien"></i></li>
+            </ul>
         </div>
     </nav>
 
@@ -38,56 +49,24 @@
 
             </div>
         </wrapper>
-        <div id="nav-meet" class="col-sm-11 offset-sm-.5">  
+        <div id="nav-meet" class="col-sm-11 offset-sm-.5">
             <div class="row top-section-meet" id="top-nav">
                 <div id="dj" class="col-md-12  col-lg-5 offset-lg-1  corner">
                     <div class="audio " id="audio-red">
                         <h3>Last Train To Clarksville.</h3>
-                        <img class="headshot" src="/band-assets/images/last-train.jpeg"></img>
-                            <div class="lyrics">
-                                <p>Take the last train to Clarksville
-                                    And I'll meet you at the station
-                                    You can be there by four-thirty
-                                    'Cause I've made your reservation, don't be slow
-                                    Oh, no, no, no
-                                    Oh, no, no, no
-                                    'Cause I'm leaving in the morning
-                                    And I must see you again
-                                    We'll have one more night together
-                                    Till the morning brings my train and I must go
-                                    Oh, no, no, no
-                                    Oh, no, no, no
-                                    And I don't know if I'm ever coming home
-                                    Take the last train to Clarksville
-                                    I'll be waiting at the station
-                                    We'll have time for coffee-flavored kisses
-                                    And a bit of conversation
-                                    Oh, no, no, no
-                                    Oh, no, no, no
-                                    Take the last train to Clarksville
-                                    Now I must hang up the phone
-                                    I can't hear you in this noisy railroad station all alone
-                                    I'm feeling low
-                                    Oh, no, no, no
-                                    Oh, no, no, no
-                                    And I don't know if I'm ever coming home
-                                    Oh
-                                    Take the last train to Clarksville
-                                    And I'll meet you at the station
-                                    You can be here by four-thirty
-                                    'Cause I've made your reservation, don't be slow
-                                    Oh, no, no, no
-                                    Oh, no, no, no
-                                    And I don't know if I'm ever coming home
-                                    Take the last train to Clarksville
-                                    Take the last train to Clarksville
-                                    Take the last train to Clarksville
-                                    Take the last train to Clarksville
-                                </p>
-                            </div>
+                        <img class="headshot" src="band-assets/images/last-train.jpeg"></img>
+                        <div class="lyrics">
+                            <p>Take the last train to Clarksville And I'll meet you at the station You can be there by four-thirty 'Cause I've made your reservation, don't be slow Oh, no, no, no Oh, no, no, no 'Cause I'm leaving in the morning And I must
+                                see you again We'll have one more night together Till the morning brings my train and I must go Oh, no, no, no Oh, no, no, no And I don't know if I'm ever coming home Take the last train to Clarksville I'll be waiting at
+                                the station We'll have time for coffee-flavored kisses And a bit of conversation Oh, no, no, no Oh, no, no, no Take the last train to Clarksville Now I must hang up the phone I can't hear you in this noisy railroad station
+                                all alone I'm feeling low Oh, no, no, no Oh, no, no, no And I don't know if I'm ever coming home Oh Take the last train to Clarksville And I'll meet you at the station You can be here by four-thirty 'Cause I've made your
+                                reservation, don't be slow Oh, no, no, no Oh, no, no, no And I don't know if I'm ever coming home Take the last train to Clarksville Take the last train to Clarksville Take the last train to Clarksville Take the last train
+                                to Clarksville
+                            </p>
+                        </div>
                         <audio controls id="audio-control">
-                          <source src="/band-assets/audio/Clarksville.ogg" type="audio/ogg" />
-                          <source src="/band-assets/audio/Clarksville.mp3" type="audio/mpeg">
+                          <source src="band-assets/audio/Clarksville.ogg" type="audio/ogg" />
+                          <source src="band-assets/audio/Clarksville.mp3" type="audio/mpeg">
                           Your browser does not support the audio element.
                         </audio>
                     </div>
@@ -95,50 +74,18 @@
                 <div id="md" class="col-md-12  col-lg-5 offset-lg-1 corner">
                     <div class="audio " id="audio-yellow">
                         <h3>Day Dream Believer.</h3>
-                        <img class="headshot" src="/band-assets/images/daydream.jpeg"></img>
+                        <img class="headshot" src="band-assets/images/daydream.jpeg"></img>
                         <div class="lyrics">
-                            <p>7-A
-                            What number is this to?
-                            7-A
-                            Okay, don't get excited man, it's 'cause I'm short, I know
-                            Oh, I could hide 'neath the wings
-                            Of the bluebird as she sings
-                            The six-o'clock alarm would never ring
-                            But six rings and I rise
-                            Wipe the sleep out of my eyes
-                            The shaving razor's cold and it stings
-                            Cheer up sleepy Jean
-                            Oh, what can it mean to a
-                            Daydream believer and a
-                            Homecoming queen?
-                            You once thought of me
-                            As a white knight on his steed
-                            Now you know how happy I can be
-                            Oh, our good time starts and ends
-                            Without all I want to spend
-                            But how much, baby, do we really need?
-                            Cheer up sleepy Jean
-                            Oh, what can it mean to a
-                            Daydream believer and a
-                            Homecoming queen?
-                            Cheer up sleepy Jean
-                            Oh, what can it mean to a
-                            Daydream believer and a
-                            Homecoming queen?
-                            Cheer up sleepy Jean
-                            Oh, what can it mean to a
-                            Daydream believer and a
-                            Homecoming queen?
-                            Cheer up sleepy Jean
-                            Oh, what can it mean to a
-                            Daydream believer and a
-                            Homecoming queen?
-                            Cheer up, sleepy Jean
+                            <p>7-A What number is this to? 7-A Okay, don't get excited man, it's 'cause I'm short, I know Oh, I could hide 'neath the wings Of the bluebird as she sings The six-o'clock alarm would never ring But six rings and I rise Wipe
+                                the sleep out of my eyes The shaving razor's cold and it stings Cheer up sleepy Jean Oh, what can it mean to a Daydream believer and a Homecoming queen? You once thought of me As a white knight on his steed Now you know
+                                how happy I can be Oh, our good time starts and ends Without all I want to spend But how much, baby, do we really need? Cheer up sleepy Jean Oh, what can it mean to a Daydream believer and a Homecoming queen? Cheer up sleepy
+                                Jean Oh, what can it mean to a Daydream believer and a Homecoming queen? Cheer up sleepy Jean Oh, what can it mean to a Daydream believer and a Homecoming queen? Cheer up sleepy Jean Oh, what can it mean to a Daydream believer
+                                and a Homecoming queen? Cheer up, sleepy Jean
                             </p>
                         </div>
                         <audio controls id="audio-control">
-                         <source src="/band-assets/audio/DaydreamBeliever.ogg" type="audio/ogg" />
-                          <source src="/band-assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
+                         <source src="band-assets/audio/DaydreamBeliever.ogg" type="audio/ogg" />
+                          <source src="band-assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
                           Your browser does not support the audio element.
                         </audio>
                     </div>
@@ -148,106 +95,57 @@
                 <div id="mn" class="col-md-12  col-lg-5 offset-lg-1   corner">
                     <div class="audio " id="audio-yellow">
                         <h3>I'm A Believer.</h3>
-                        <img class="headshot" src="/band-assets/images/imbeliever.jpeg"></img>
+                        <img class="headshot" src="band-assets/images/imbeliever.jpeg"></img>
                         <div class="lyrics">
-                            <p>I thought love was only true in fairy tales
-                            Meant for someone else but not for me
-                            Love was out to get me
-                            That's the way it seemed
-                            Disappointment haunted all of my dreams
-                            Then I saw her face, now I'm a believer
-                            Not a trace of doubt in my mind
-                            I'm in love
-                            I'm a believer, I couldn't leave her if I tried
-                            I thought love was more or less a giving thing
-                            Seems the more I gave the less I got
-                            What's the use in tryin'
-                            All you get is pain?
-                            When I needed sunshine, I got rain
-                            Then I saw her face, now I'm a believer
-                            Not a trace of doubt in my mind
-                            I'm in love
-                            I'm a believer, I couldn't leave her if I tried
-                            Oh
-                            Oh, love was out to get me
-                            Now, that's the way it seemed
-                            Disappointment haunted all of my dreams
-                            Then I saw her face, now I'm a believer
-                            Not a trace of doubt in my mind
-                            I'm in love
-                            I'm a believer, I couldn't leave her if I tried
-                            Yes, I saw her face, now I'm a believer
-                            Not a trace of doubt in my mind
-                            Said, I'm a believer, yeah, yeah, yeah, yeah, yeah, yeah (I'm a believer)
-                            Said, I'm a believer, yeah (I'm a believer)
-                            I said, I'm a believer, yeah (I'm a believer)
+                            <p>I thought love was only true in fairy tales Meant for someone else but not for me Love was out to get me That's the way it seemed Disappointment haunted all of my dreams Then I saw her face, now I'm a believer Not a trace of
+                                doubt in my mind I'm in love I'm a believer, I couldn't leave her if I tried I thought love was more or less a giving thing Seems the more I gave the less I got What's the use in tryin' All you get is pain? When I needed
+                                sunshine, I got rain Then I saw her face, now I'm a believer Not a trace of doubt in my mind I'm in love I'm a believer, I couldn't leave her if I tried Oh Oh, love was out to get me Now, that's the way it seemed Disappointment
+                                haunted all of my dreams Then I saw her face, now I'm a believer Not a trace of doubt in my mind I'm in love I'm a believer, I couldn't leave her if I tried Yes, I saw her face, now I'm a believer Not a trace of doubt in
+                                my mind Said, I'm a believer, yeah, yeah, yeah, yeah, yeah, yeah (I'm a believer) Said, I'm a believer, yeah (I'm a believer) I said, I'm a believer, yeah (I'm a believer)
                             </p>
                         </div>
                         <audio controls id="audio-control">
-                         <source src="/band-assets/audio/ImABeliever.ogg" type="audio/ogg" />
-                          <source src="/band-assets/audio/ImABeliever.mp3" type="audio/mpeg">
+                         <source src="band-assets/audio/ImABeliever.ogg" type="audio/ogg" />
+                          <source src="band-assets/audio/ImABeliever.mp3" type="audio/mpeg">
                           Your browser does not support the audio element.
                         </audio>
                     </div>
                 </div>
                 <div id="pt" class="col-md-12  col-lg-5 offset-lg-1 corner">
-                    <div class="audio" id="audio-red" >
+                    <div class="audio" id="audio-red">
                         <h3>Stepping Stone</h3>
-                        <img class="headshot" src="/band-assets/images/stone.jpeg"></img>
+                        <img class="headshot" src="band-assets/images/stone.jpeg"></img>
                         <div class="lyrics">
-                        <p>I-I-I-I-I'm not your steppin' stone</p>
-                          <p>  I-I-I-I-I'm not your steppin' stone</p>
-                           <p> You're trying to make your mark in society
-                            You're using all the tricks that you used on me
-                            You're reading all them high-fashion magazines
-                            The clothes you're wearing, girl, they're causing public scenes</p>
-                            <p>I said, I-I-I-I-I'm not your steppin' stone
-                            I-I-I-I-I'm not your steppin' stone
-                            Not your steppin' stone
-                            Not your steppin' stone
-                            When I first met you, girl, you didn't have no shoes
-                            But, now you're walking around like you're front-page news
-                            You've been awful careful 'bout the friends you choose
-                            But, you won't find my name in your book of "who's-who?"
-                            I said, I-I-I-I-I'm not your steppin' stone
-                            (No, girl, not me!)
-                            I-I-I-I-I'm not your steppin' stone
-                            Not your steppin' stone
-                            I'm not your steppin' stone
-                            Not your steppin' stone (step-step-steppin' stone)
-                            Not your steppin' stone (step-step-steppin' stone)
-                            Not your steppin' stone (step-step-steppin' stone)
-                            Not your steppin' stone (step-step-steppin' stone)
-                            No, girl, I'm not your steppin' stone
-                            Not your steppin' stone (step-step-steppin' stone)
-                            Not your steppin' stone (step-step-steppin' stone)</p>
-                            </div>
+                            <p>I-I-I-I-I'm not your steppin' stone</p>
+                            <p> I-I-I-I-I'm not your steppin' stone</p>
+                            <p> You're trying to make your mark in society You're using all the tricks that you used on me You're reading all them high-fashion magazines The clothes you're wearing, girl, they're causing public scenes</p>
+                            <p>I said, I-I-I-I-I'm not your steppin' stone I-I-I-I-I'm not your steppin' stone Not your steppin' stone Not your steppin' stone When I first met you, girl, you didn't have no shoes But, now you're walking around like you're
+                                front-page news You've been awful careful 'bout the friends you choose But, you won't find my name in your book of "who's-who?" I said, I-I-I-I-I'm not your steppin' stone (No, girl, not me!) I-I-I-I-I'm not your steppin'
+                                stone Not your steppin' stone I'm not your steppin' stone Not your steppin' stone (step-step-steppin' stone) Not your steppin' stone (step-step-steppin' stone) Not your steppin' stone (step-step-steppin' stone) Not your
+                                steppin' stone (step-step-steppin' stone) No, girl, I'm not your steppin' stone Not your steppin' stone (step-step-steppin' stone) Not your steppin' stone (step-step-steppin' stone)</p>
+                        </div>
                         <audio controls id="audio-control">
-                         <source src="/band-assets/audio/SteppingStone.ogg" type="audio/ogg" />
-                          <source src="/band-assets/audio/SteppingStone.mp3" type="audio/mpeg">
+                         <source src="band-assets/audio/SteppingStone.ogg" type="audio/ogg" />
+                          <source src="band-assets/audio/SteppingStone.mp3" type="audio/mpeg">
                           Your browser does not support the audio element.
                         </audio>
                     </div>
                 </div>
             </div>
         </div>
-       
+
 
 
     </article>
 
     <footerclass="footer mt-auto py-3">
-        <ul class="list-group list-group-horizontal social">
-            <li class="list-group-item flex-fill "><i class="fab fa-facebook-f"> Facebook</i></li>
-            <li class="list-group-item flex-fill"><i class="fab fa-twitter"> Twitter</i></li>
-            <li class="list-group-item flex-fill"><i class="fab fa-reddit-alien"> Reddit</i></li>
-        </ul>
+
         </footer>
 
 
 
 
-
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
