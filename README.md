@@ -14,8 +14,8 @@ This page offers an opportunity to read a little about each of the band members.
 
 ## listen.html
 
-The listen page offers an opportunity to hear some of the bands most popular songs. Using the html ** audio ** element and including two different file types (ogg and mpeg). I placed the ** ogg **
-files first as according to some documentation these have superior sound quality, the ** mpeg ** file is then included to maintain cross browser compatibility.
+The listen page offers an opportunity to hear some of the bands most popular songs. Using the html **audio** element and including two different file types (ogg and mpeg). I placed the **ogg**
+files first as according to some documentation these have superior sound quality, the **mpeg** file is then included to maintain cross browser compatibility.
 
 ## watch.html
 
@@ -30,3 +30,18 @@ On this page the site visitor can see upcoming dates and also follow a link to a
 This site utilises bootstrap and its grid system to help with the layout and mobile responsiveness aswell as using the navbar-collapse utility for mobile screens.
 
 My own further styling has been done with css in the file named **style.css**.
+
+# Testing
+
+Testing has been carried out on the following browsers:-
+
+1.Google Chrome
+2. Firefox
+3.  Brave
+4.  Opera
+
+and everything has been found to be working fine although the audio controls do lose there styling in the firefox browser. I am of the understanding this could be rectified with javascript.
+
+Mobile responsivess has been tested with the Google Chrome developer tools.
+
+

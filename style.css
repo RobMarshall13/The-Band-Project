@@ -4,19 +4,18 @@ html,
 body {
     height: 100%;
     margin: 0;
-   
+
 }
 
 article {
     min-height: 100%;
-     
+
 }
 
 
 
 .call {
-   
-    margin-top: 0;
+    display: block;
     background: url("/band-assets/images/monkees.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -25,13 +24,11 @@ article {
 }
 
 .band {
-   
     text-align: center;
 }
 
-.landing-title,
-.title-meet h1 {
-   text-align: center;
+.landing-title {
+    text-align: center;
     color: red;
     text-shadow: 2px 2px yellow;
     width: 100vw;
@@ -39,23 +36,18 @@ article {
     display: block;
     padding: 50px;
     margin-bottom: 2rem;
-    margin:-15px;
-   
-    
-    
+    margin-left: -15px;
 }
 
 
 
-video{
+video {
     border-style: groove;
     border-width: 20px;
     border-color: white;
-    width:100%;
+    width: 100%;
     height: auto;
 }
-
-
 
 
 .landing-title h5,
@@ -80,19 +72,24 @@ ul li {
     padding-top: 1rem;
 }
 
-button {
+.button {
     display: block;
-    border: none;
-    padding: 10px;
+    /*border: none;*/
+    /*padding: 10px;*/
+    margin-top: 1rem;
 }
 
 footer {
-    min-height: 5vh;
+
+    min-height: 30px;
+    background-color: black;
+    margin: 0px;
+
 }
 
-.social ul li{
+.social ul li {
     list-style-type: none;
-    
+
 }
 
 .fab {
@@ -111,7 +108,6 @@ button span {
     margin-bottom: 1rem;
     text-align: center;
     background-color: rgb(0, 0, 0, 0.75);
-    border-style: groove;
     border-radius: 1rem;
     border-color: white;
     border-style: groove;
@@ -154,7 +150,7 @@ button span {
     text-decoration: none;
 }
 
-.taster{
+.taster {
     color: white;
     text-align: center;
 }
@@ -164,37 +160,37 @@ button span {
     width: 16rem;
 }
 
-.audio{
+.audio {
     color: white;
 }
 
-#audio-control{
-    margin-top:1rem;
+.audio-control {
+    margin-top: 1rem;
 }
 
-#audio-red audio::-webkit-media-controls-panel{
-  background-color: red;
- 
+#audio-red audio::-webkit-media-controls-panel, #audio-red2 audio::-webkit-media-controls-panel {
+    background-color: red;
+
 }
 
-#audio-yellow audio::-webkit-media-controls-panel{
-  background-color: yellow;
+#audio-yellow audio::-webkit-media-controls-panel , #audio-yellow2 audio::-webkit-media-controls-panel {
+    background-color: yellow;
 }
 
-.lyrics{
-    padding:1rem;
+.lyrics {
+    padding: 1rem;
     height: 16rem;
     overflow-y: scroll;
 }
 
 .top-section {
-        padding-top: 6rem;
+    padding-top: 6rem;
 
-    }
+}
 
 @media(min-width: 1025px) {
     #nav {
-       
+
         left: 0;
         top: 0;
         height: 100%;
@@ -227,15 +223,7 @@ button span {
         width: 16rem;
     }
 
-    /*.landing-title {*/
-    /*    width: 100%;*/
-    /*    position: absolute;*/
-    /*    top: 0;*/
-    /*    left: 0;*/
-        
-
-    /*}*/
-
+   
     .headshot {
         float: left;
     }
@@ -244,7 +232,6 @@ button span {
         float: left;
     }
 
-   
-   
-}
 
+
+}
