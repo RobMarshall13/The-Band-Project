@@ -42,6 +42,6 @@ Testing has been carried out on the following browsers:-
 
 and everything has been found to be working fine although the audio controls do lose there styling in the firefox browser. I am of the understanding this could be rectified with javascript.
 
-Mobile responsivess has been tested with the Google Chrome developer tools.
+Mobile responsivess has been tested with the Google Chrome developer tools. And the code has been tested with the "W3C Markup Validation Service".
 
 
