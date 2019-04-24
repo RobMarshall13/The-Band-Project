@@ -29,4 +29,4 @@ On this page the site visitor can see upcoming dates and also follow a link to a
 
 This site utilises bootstrap and its grid system to help with the layout and mobile responsiveness aswell as using the navbar-collapse utility for mobile screens.
 
-My own further styling has been done with css in the file named ** style.css **.
+My own further styling has been done with css in the file named **style.css**.
